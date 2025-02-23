@@ -6,7 +6,7 @@ subtitle: <a href='https://www.cityu.edu.hk/bios/'>Department of Biostatistics</
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_my.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Email: mingxcaiATcityu.edu.hk</p>
