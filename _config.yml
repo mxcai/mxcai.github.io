@@ -144,11 +144,11 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 # collections:
-#   news:
-#     defaults:
-#       layout: post
-#     output: true
-#     permalink: /:collection/:title/
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /:collection/:title/
 #   projects:
 #     output: true
 #     permalink: /:collection/:title/
@@ -198,6 +198,8 @@ exclude:
   - _pages/repositories.md
   - _projects/
   - _pages/projects.md
+  - _pages/cv.md
+  - _pages/profiles.md
 
 keep_files:
   - CNAME
