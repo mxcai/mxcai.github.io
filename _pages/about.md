@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.cityu.edu.hk/bios/'>Department of Biostatistics</a>, <a href='https://www.cityu.edu.hk'>City University of Hong Kong</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Email: mingxcaiATcityu.edu.hk</p>
