@@ -6,9 +6,9 @@ description:
 nav:  true
 nav_order: 3
 ---
-Our group develop and maintain softwares for statistical genetics and genomics.
+Our group focuses on developing fast and reliable methods for statistical genetics and genomics. We are maintaining a number of developed softwares.
 
-- [Funmap](https://github.com/LeeHITsz/Funmap): R package for Funmap, a unified method to integrate high-dimensional functional annotations with fine-mapping. Funmap produces calibrated FDR while achieving power gains when dealing with a large number of annotations.
+- [Funmap](https://github.com/LeeHITsz/Funmap): Python software for Funmap, a unified method to integrate high-dimensional functional annotations with fine-mapping. Funmap produces calibrated FDR while achieving power gains when dealing with a large number of annotations.
 - [XMAP](https://github.com/YangLabHKUST/XMAP): R package for XMAP, a fast and accurate method for fine-mapping causal variants using cross-population GWAS summary statistics. XMAP effectively leverages cross-population genetic diversity to enhance fine-mapping resolution. It also accounts for polygenicity and correct for population stratification to reduce false positives.
 - [VCM](https://github.com/mxcai/VCM): 	An efficiently implemented R package for variance components estimation. The software provides 3 algorithms for fitting the variance components model, including the Expectation-Maximization algorithm, the Minorization-Maximization algorithm, and the Method of Moments.
 - [XPASS](https://github.com/mxcai/XPASS): 	An R package for constructing genetic prediction of polygenic traits by leveraging cross-population datasets from GWAS summary data.
