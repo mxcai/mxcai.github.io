@@ -5,7 +5,7 @@ title:  Software
 description: 
 nav:  true
 ---
-Our group developed and maintained softwares for statistical genetics and genomics.
+Our group develop and maintain softwares for statistical genetics and genomics.
 
 - [Funmap](https://github.com/LeeHITsz/Funmap): R package for Funmap, a unified method to integrate high-dimensional functional annotations with fine-mapping. Funmap produces calibrated FDR while achieving power gains when dealing with a large number of annotations.
 - [XMAP](https://github.com/YangLabHKUST/XMAP): R package for XMAP, a fast and accurate method for fine-mapping causal variants using cross-population GWAS summary statistics. XMAP effectively leverages cross-population genetic diversity to enhance fine-mapping resolution. It also accounts for polygenicity and correct for population stratification to reduce false positives.
