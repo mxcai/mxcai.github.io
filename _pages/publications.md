@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Full publication is also available at [my GooGle Scholar](https://scholar.google.com/citations?user=bK5JkV4AAAAJ).
+description: 
 nav: true
 nav_order: 2
 ---
