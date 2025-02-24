@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: 
 nav: true
-nav_order: 6
+nav_order: 3
 ---
 
 - Statistical Computing, Course Instructor, CityU, Fall 2022, Fall 2023, Fall 2024
