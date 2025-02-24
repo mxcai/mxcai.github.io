@@ -4,6 +4,7 @@ permalink:  /Software/
 title:  Software
 description: 
 nav:  true
+nav_order: 3
 ---
 Our group develop and maintain softwares for statistical genetics and genomics.
 
