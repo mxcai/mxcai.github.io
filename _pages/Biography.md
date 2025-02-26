@@ -16,7 +16,7 @@ nav_order: 1
 - Bsc Hong Kong Baptist University, Statistics (2016)
 
 
-## Profession activities
+## Professional activities
 - Journal reviewer
 	- Nature Communications
 	- Annals of Applied Statistics
