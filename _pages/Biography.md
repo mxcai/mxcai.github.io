@@ -27,6 +27,7 @@ nav_order: 1
 	- Journal of Computational and Graphical Statistics
 	- BMC Genomics
 	- BMC Bioinformatics
+	- GENETICS
 	- Scientific Reports
 	- Biometrical Journal
 	<!-- - The American Journal of Human Genetics -->
