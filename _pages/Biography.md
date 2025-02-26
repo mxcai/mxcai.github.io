@@ -16,17 +16,22 @@ nav_order: 1
 - Bsc Hong Kong Baptist University, Statistics (2016)
 
 
-
-<!-- # Profession activities
+## Profession activities
 - Journal reviewer
-	- Journal of Computational and Graphical Statistics
-	- The American Journal of Human Genetics
-	- Bioinformatics
+	- Nature Communications
+	- Annals of Applied Statistics
 	- PLOS Computational Biology
 	- PLOS Genetics
-	- Frontiers in Genetics 
-	- Biometrical Journal -->
-
+	- Human Genetics
+	- Bioinformatics
+	- Journal of Computational and Graphical Statistics
+	- BMC Genomics
+	- BMC Bioinformatics
+	- Scientific Reports
+	- Biometrical Journal
+	- The American Journal of Human Genetics
+- Editorial board
+	- Scientific Reports
 
 ## Talks
 - Leveraging genetic diversity to fine-map causal variants of complex traits. Statistical Bioinformatics Seminar at The University of Sydney. Mar 18, 2024.
