@@ -48,7 +48,8 @@ nav_order: 1
 
 
 ## Honors
-
+- Outstanding Teaching Performance with LOQ score ranked top 5% in Semester A, 2024/25
+- Outstanding Teaching Performance with LOQ score ranked top 5% in Semester A, 2023/24
 - Best Thesis Award, Hong Kong Mathematical Society, 2023.
 - Redbird Academic Excellence Award, HKUST, 2022.
 - The 17th Epsilon Fund Award, Department of Mathematics, HKUST, 2022.
