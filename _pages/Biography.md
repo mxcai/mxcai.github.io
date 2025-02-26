@@ -29,7 +29,7 @@ nav_order: 1
 	- BMC Bioinformatics
 	- Scientific Reports
 	- Biometrical Journal
-	- The American Journal of Human Genetics
+	<!-- - The American Journal of Human Genetics -->
 - Editorial board
 	- Scientific Reports
 
