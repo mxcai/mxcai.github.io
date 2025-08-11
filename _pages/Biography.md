@@ -36,6 +36,8 @@ nav_order: 1
 	- Scientific Reports
 
 ## Talks
+- Trans-ancestry cell-type-specific eQTLs mapping by integrating scRNA-seq and bulk data. Statistics Workshop on Bioinformatics and Transfer Learning at Harbin Institute of Technology, Shenzhen. August 9, 2025.
+- traceCB: Trans-ancestry cell-type-specific eQTLs mapping by integrating scRNA-seq and bulk data. Statistics and Data Science Workshop at Hong Kong University of Science and Technology. August 8, 2025.
 - Leveraging Cross-population Fine-mapping to Strengthen cis-Mendelian Randomization. The 2025 ICSA International Conference at Beijing Normal University, Zhuhai. June 29, 2025.
 - Integrating multi-ancestry eQTL studies to detect gene-trait associations. Interdisciplinary Workshop on AI, Data Science and Life Science at Shenzhen University. Jan 3, 2025.
 - Leveraging Cross-population Fine-mapping to Strengthen cis-Mendelian Randomization. The 2nd Joint Conference on Statistics and Data Science in China at Yunnan, Kunming. July 14, 2024.
