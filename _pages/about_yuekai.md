@@ -1,4 +1,4 @@
-## Li Yuekai
+## Yuekai LI
 - PhD student (2024-)
 - Outstanding Academic Performance Award (2025/2026)
 

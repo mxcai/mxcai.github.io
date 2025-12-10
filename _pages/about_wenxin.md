@@ -1,4 +1,4 @@
-## Jiang Wenxin
+## Wenxin JIANG
 - PhD student (2023-)
 
 - B.S. Sun Yat-sen University
