@@ -3,4 +3,4 @@
 - __Hong Kong PhD Fellowship Scheme (HKPFS) Awardee__
 
 
-- B.S. Chinese University of Hong Kong
+- B.S. in Statistics, Chinese University of Hong Kong
