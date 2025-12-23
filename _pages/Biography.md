@@ -18,6 +18,7 @@ nav_order: 1
 
 ## Professional activities
 - Journal reviewer
+	- Nature Genetics
 	- Nature Communications
 	- Nature Computational Science
 	- Annals of Applied Statistics
