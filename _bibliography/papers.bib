@@ -1,5 +1,22 @@
 ---
 ---
+@article{liu2026candies,
+  abbr = {Adv Sci},
+  abstract = {ABSTRACT Spatial multi-omics data offer a powerful framework for integrating diverse molecular profiles while maintaining the spatial organization of cells. However, inherent variations in data quality and noise levels across different modalities pose significant challenges to accurate integration and analyses. In this paper, we introduce CANDIES, which leverages a conditional diffusion model and contrastive learning to effectively denoise and integrate spatial multi-omics data. With our innovative model and algorithm designs, CANDIES not only enhances the quality of spatial multi-omics data, but also yields a unified and comprehensive joint representation, thereby empowering many downstream analyses. We conduct extensive evaluations on diverse synthetic and real datasets, including MISAR-seq data from the mouse brain, spatial CITE-seq data from human skin biopsy tissue, spatial Mux-seq, and spatial ATAC-RNA-seq data from the mouse embryo, and 10\$\times\$ Visium data from human lymph nodes. CANDIES shows superior performance on various downstream tasks, including denoising, spatial domain identification, spatiotemporal trajectory reconstruction, and spatial association mapping for complex human traits. In particular, we show that CANDIES representations can be integrated with the rich resources from genome-wide association studies (GWASs), allowing the spatial domains to be linked with complex human traits, yielding spatially resolved interpretations of complex traits in their relevant tissues.},
+  title = {Cross-Modal Denoising and Integration of Spatial Multi-Omics Data with CANDIES},
+  author = {Liu, Ye and Zou, Wanpeng and Li, Yuekai and Wang, Jiayi and Cai, Mingxuan and Cai, Hongmin},
+  journal = {Advanced Science},
+  html = {https://doi.org/10.1002/advs.202523754},
+  code={https://github.com/YeLiu-Lab/CANDIES},  
+  volume = {n/a},
+  number = {n/a},
+  pages = {e23754},
+  year={2026},
+  selected={true},
+  pdf={CANDIES-AdvSci.pdf},
+  publisher={Wiley}
+}
+
 @article{li2024funmap,
   abbr = {Bioinformatics},
   abstract = {Fine-mapping aims to prioritize causal variants underlying complex traits by accounting for the linkage disequilibrium of GWAS risk locus. The expanding resources of functional annotations serve as auxiliary evidence to improve the power of fine-mapping. However, existing fine-mapping methods tend to generate many false positive results when integrating a large number of annotations. In this study, we propose a unified method to integrate high-dimensional functional annotations with fine-mapping (Funmap). Funmap can effectively improve the power of fine-mapping by borrowing information from hundreds of functional annotations. Meanwhile, it relates the annotation to the causal probability with a random effects model that avoids the over-fitting issue, thereby producing a well-controlled false positive rate. Paired with a fast algorithm, Funmap enables scalable integration of a large number of annotations to facilitate prioritizing multiple causal SNPs. Our simulations demonstrate that Funmap is the only method that produces well-calibrated FDR under the setting of high-dimensional annotations while achieving better or comparable power gains as compared to existing methods. By integrating GWASs of 4 lipid traits with 187 functional annotations, Funmap consistently identified more variants that can be replicated in an independent cohort, achieving 15.5%-26.2% improvement over the runner-up in terms of replication rate.},
