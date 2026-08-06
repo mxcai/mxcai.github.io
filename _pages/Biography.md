@@ -21,22 +21,25 @@ nav_order: 1
 	- Nature Genetics
 	- Nature Communications
 	- Nature Computational Science
+	- The American Journal of Human Genetics
 	- Annals of Applied Statistics
-	- PLOS Computational Biology
 	- PLOS Genetics
-	- Human Genetics
+	- PLOS Computational Biology
 	- Bioinformatics
+	- Human Genetics
 	- Journal of Computational and Graphical Statistics
+	- Computational Statistics and Data Analysis
 	- BMC Genomics
 	- BMC Bioinformatics
 	- GENETICS
-	- Scientific Reports
-	- Biometrical Journal
-	<!-- - The American Journal of Human Genetics -->
 - Editorial board
 	- Scientific Reports
 
 ## Talks
+- Trans-ancestry cell-type-specific eQTLs mapping by integrating scRNA-seq and bulk data. The 12th International Statistical Genetics and Genomics Conference at Tianjin Medical University, Tianjin. July 16, 2026.
+- Leveraging Trans-Ancestry Gene Co-Regulation for Transcriptome-Wide Association Studies. Young Scholars Workshop of the 2nd Joint Conference on Statistics and Data Science in China at Guizhou, July 9, 2026
+- Trans-ancestry cell-type-specific eQTLs mapping by integrating scRNA-seq and bulk data. Workshop on Biostatistics and AI at CUHK-SZ, Shenzhen. July 1, 2026.
+- Leveraging Trans-Ancestry Gene Co-Regulation for Transcriptome-Wide Association Studies. The 1st New Researcher Conference Asia at Hong Kong University, June 17, 2026
 - Trans-ancestry cell-type-specific eQTLs mapping by integrating scRNA-seq and bulk data. Statistics Workshop on Bioinformatics and Transfer Learning at Harbin Institute of Technology, Shenzhen. August 9, 2025.
 - traceCB: Trans-ancestry cell-type-specific eQTLs mapping by integrating scRNA-seq and bulk data. Statistics and Data Science Workshop at Hong Kong University of Science and Technology. August 8, 2025.
 - Leveraging Cross-population Fine-mapping to Strengthen cis-Mendelian Randomization. The 2025 ICSA International Conference at Beijing Normal University, Zhuhai. June 29, 2025.
