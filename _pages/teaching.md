@@ -18,7 +18,7 @@ nav_order: 4
 - Machine Learning and its Applications, Teaching Assistant, HKUST, Spring 2020.
 - Statistical Machine Learning (PG), Teaching Assistant, HKUST, Spring 2020.
 - Applied Statistics, Teaching Assistant, HKSUT, Spring 2020.
-- Statistical Machine Learning (UG), Teaching Assistant, HKUST, Fall 2019, Fall 2020, Fall 2021.
+- Statistical Machine Learning (UG), Teaching Assistant, HKUST, Fall 2019-2021.
 - Sampling, Teaching Assistant, HKUST, Spring 2018.
 
 ## Hong Kong Baptist University
