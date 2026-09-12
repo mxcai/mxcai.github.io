@@ -22,6 +22,7 @@ nav_order: 1
 	- Nature Communications
 	- Nature Computational Science
 	- The American Journal of Human Genetics
+	- Genome Medicine
 	- Annals of Applied Statistics
 	- PLOS Genetics
 	- PLOS Computational Biology

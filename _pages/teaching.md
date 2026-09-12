@@ -8,9 +8,10 @@ nav_order: 4
 ---
 
 ## City University of Hong Kong
-- Statistical Computing, Course Instructor, CityU, Fall 2022, Fall 2023, Fall 2024
-- Advanced Statistical Theory, Course Instructor, CityU, Fall 2023, Fall 2024
-- Communication and Project Study, Course Instructor, CityU, Summer 2022, Summer 2023
+- Statistical Computing, Course Instructor, CityU, Fall 2022-2026
+- Advanced Statistical Theory, Course Instructor, CityU, Fall 2023-2026
+- Communication and Project Study, Course Instructor, CityU, Summer 2023-2026
+- _Outstanding Teaching Performance with LOQ score ranked top 5% in Fall 2023 and Fall 2024_
 
 ## Hong Kong University of Science and Technology
 - Calculus II, Teaching Assistant, HKUST, Spring 2021.
