@@ -15,6 +15,11 @@ nav_order: 2
 
 <div class="publications">
 
+<p class="small text-muted">
+  <sup>*</sup> Co-first authors (equal contribution);
+  <sup>†</sup> Corresponding authors.
+</p>
+
 {% bibliography %}
 
 </div>
