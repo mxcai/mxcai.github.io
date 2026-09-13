@@ -33,8 +33,10 @@ I am an Assistant Professor at the [Department of Biostatistics](https://www.cit
 
 I obtained my PhD degree from [The Hong Kong University of Science and Technology](https://hkust.edu.hk), where I was fortunately supervised by [Prof. Can Yang](https://sites.google.com/site/eeyangc/).
 
-__Openings for PhD positions for the 2027 admission__: 
-I am looking for highly motivated students with background in statistics, math, or computer science. Preference will be given to those with a strong interest/research experiences in statistical genetics and genomics, as well as strong programming skills in R/Python. If you are interested, please email me your CV and transcripts. While I do read every application, I may not be able to respond to each one due to the substantial amount of applications. Please understand if you do not receive a reply.
+
+**PhD Opportunities — 2027 Entry**
+I am seeking motivated PhD students with backgrounds in statistics, mathematics, computer science, or related disciplines who are interested in developing statistical and machine learning methods for biomedical research. Our group offers opportunities to work on problems in statistical genetics, single-cell and spatial genomics, and multi-omics integration. Research experience in these areas and strong programming skills in R or Python are particularly welcome. Interested applicants should email their CV and academic transcripts to [mingxcai@cityu.edu.hk](mailto:mingxcai@cityu.edu.hk). I review all applications, but may be unable to respond to every inquiry individually.
+<!-- I am looking for highly motivated students with background in statistics, math, or computer science. Preference will be given to those with a strong interest/research experiences in statistical genetics and genomics, as well as strong programming skills in R/Python. If you are interested, please email me your CV and transcripts. While I do read every application, I may not be able to respond to each one due to the substantial amount of applications. Please understand if you do not receive a reply. -->
 
 [My GitHub page](https://github.com/mxcai)
 
