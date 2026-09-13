@@ -27,7 +27,7 @@ announcements:
 ---
 
 
-I am an Assistant Professor at the [Department of Biostatistics](https://www.cityu.edu.hk/bios/), [City University of Hong Kong](https://www.cityu.edu.hk). My research lies at the intersection of statistics, machine learning, and statistical genetics. I develop scalable methods to understand the genetic basis of complex traits and diseases by integrating information across populations and diverse genomic data sources. My work connects genetic discovery with molecular and cellular insights, with the goal of improving biological interpretation and genetic risk prediction across diverse populations.
+I am an Assistant Professor at the [Department of Biostatistics](https://www.cityu.edu.hk/bios/), [City University of Hong Kong](https://www.cityu.edu.hk). My research combines statistics and machine learning to address methodological and scientific challenges in biomedical research, with a particular focus on genetics and genomics. I develop scalable methods to understand the genetic basis of complex traits and diseases by integrating information across populations and diverse genomic data sources. These works aim to connect genetic discovery with molecular and cellular insights, with the goal of improving biological interpretation and genetic risk prediction across diverse populations.
 
 <!-- My broad area of interest lies in statistical machine learning and data science with applications in genetics and genomics data. I have been working on scalable statistical methods for high dimensional regression problems, integrative analysis of multi-omics data, and cross-population genetics for association mapping and polygenic risk prediction.  -->
 
