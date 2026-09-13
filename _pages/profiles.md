@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: Mingxuan Cai' Group
-description: Our group develops statistical methods and computational tools to study how genetic variation shapes gene regulation and complex human traits. Our research spans cross-population association mapping and polygenic prediction, fine-mapping informed by functional annotations, and the integration of single-cell and spatial multi-omics data. By combining statistical modeling, efficient inference, and machine learning, we address challenges posed by high dimensionality, noise, and heterogeneity in genomic datasets. We are particularly interested in connecting genetic associations to the genes, cell types, and tissue environments through which they may act, and in translating methodological advances into accessible software for biomedical research.
+description: Our group develops statistical methods and computational tools to address biomedical questions using large-scale genetic and genomic data. Our research spans cross-population association mapping and polygenic prediction, fine-mapping informed by functional annotations, and the integration of single-cell and spatial multi-omics data. By combining statistical modeling, efficient inference, and machine learning, we address challenges posed by high dimensionality, noise, and heterogeneity in genomic datasets. We are particularly interested in connecting genetic associations to the genes, cell types, and tissue environments through which they may act. We translate these methodological advances into accessible software to support discovery and interpretation in biomedical research.
 nav: true
 nav_order: 7
 
