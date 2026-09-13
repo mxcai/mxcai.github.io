@@ -16,14 +16,14 @@
   pdf={n/a},
   publisher={Springer Nature},
   preview={XMAP_preview.jpeg},
-  annotation = {† Corresponding author}
+  annotation = {† Corresponding author.}
 }
 
 @article{liu2026candies,
   abbr = {Adv. Sci.},
   abstract = {Spatial multi-omics data offer a powerful framework for integrating diverse molecular profiles while maintaining the spatial organization of cells. However, inherent variations in data quality and noise levels across different modalities pose significant challenges to accurate integration and analyses. In this paper, we introduce CANDIES, which leverages a conditional diffusion model and contrastive learning to effectively denoise and integrate spatial multi-omics data. With our innovative model and algorithm designs, CANDIES not only enhances the quality of spatial multi-omics data, but also yields a unified and comprehensive joint representation, thereby empowering many downstream analyses. We conduct extensive evaluations on diverse synthetic and real datasets, including MISAR-seq data from the mouse brain, spatial CITE-seq data from human skin biopsy tissue, spatial Mux-seq, and spatial ATAC-RNA-seq data from the mouse embryo, and 10\$\times\$ Visium data from human lymph nodes. CANDIES shows superior performance on various downstream tasks, including denoising, spatial domain identification, spatiotemporal trajectory reconstruction, and spatial association mapping for complex human traits. In particular, we show that CANDIES representations can be integrated with the rich resources from genome-wide association studies (GWASs), allowing the spatial domains to be linked with complex human traits, yielding spatially resolved interpretations of complex traits in their relevant tissues.},
   title = {Cross-Modal Denoising and Integration of Spatial Multi-Omics Data with CANDIES},
-  author = {Liu, Ye and Zou, Wanpeng and Li, Yuekai and Wang, Jiayi and Cai, Mingxuan and Cai, Hongmin},
+  author = {Liu, Ye and Zou, Wanpeng and Li, Yuekai and Wang, Jiayi and Cai†, Mingxuan and Cai†, Hongmin},
   journal = {Advanced Science},
   html = {https://doi.org/10.1002/advs.202523754},
   code={https://github.com/YeLiu-Lab/CANDIES},  
@@ -34,14 +34,15 @@
   selected={true},
   pdf={CANDIES-AdvSci.pdf},
   publisher={Wiley},
-  preview={CANDIES_preview.jpeg}
+  preview={CANDIES_preview.jpeg},
+  annotation = {† Corresponding author.}
 }
 
 @article{li2024funmap,
   abbr = {Bioinformatics},
   abstract = {Fine-mapping aims to prioritize causal variants underlying complex traits by accounting for the linkage disequilibrium of GWAS risk locus. The expanding resources of functional annotations serve as auxiliary evidence to improve the power of fine-mapping. However, existing fine-mapping methods tend to generate many false positive results when integrating a large number of annotations. In this study, we propose a unified method to integrate high-dimensional functional annotations with fine-mapping (Funmap). Funmap can effectively improve the power of fine-mapping by borrowing information from hundreds of functional annotations. Meanwhile, it relates the annotation to the causal probability with a random effects model that avoids the over-fitting issue, thereby producing a well-controlled false positive rate. Paired with a fast algorithm, Funmap enables scalable integration of a large number of annotations to facilitate prioritizing multiple causal SNPs. Our simulations demonstrate that Funmap is the only method that produces well-calibrated FDR under the setting of high-dimensional annotations while achieving better or comparable power gains as compared to existing methods. By integrating GWASs of 4 lipid traits with 187 functional annotations, Funmap consistently identified more variants that can be replicated in an independent cohort, achieving 15.5%-26.2% improvement over the runner-up in terms of replication rate.},
   title={Funmap: integrating high-dimensional functional annotations to improve fine-mapping},
-  author={Li, Yuekai and Xiao, Jiashun and Ming, Jingsi and Zeng, Yicheng and Cai, Mingxuan},
+  author={Li, Yuekai and Xiao, Jiashun and Ming, Jingsi and Zeng†, Yicheng and Cai†, Mingxuan},
   journal={Bioinformatics},
   html = {https://doi.org/10.1093/bioinformatics/btaf017},
   code={https://github.com/LeeHITsz/Funmap},  
@@ -52,14 +53,15 @@
   selected={true},
   pdf={Funmap-Bioinformatics.pdf},
   publisher={Oxford University Press},
-  preview={Funmap_preview.jpeg}
+  preview={Funmap_preview.jpeg},
+  annotation = {† Corresponding author.}
 }
 
 @article{yu2024unified,
   abbr = {AJHG},
   abstract = {Genome-wide association studies (GWASs) have identified numerous genetic variants associated with complex traits, yet the biological interpretation remains challenging, especially for variants in non-coding regions. Expression quantitative trait loci (eQTLs) studies have linked these variations to gene expression, aiding in identifying genes involved in disease mechanisms. Traditional eQTL analyses using bulk RNA sequencing (bulk RNA-seq) provide tissue-level insights but suffer from signal loss and distortion due to unaddressed cellular heterogeneity. Recently, single-cell RNA sequencing (scRNA-seq) has provided higher resolution enabling cell-type-specific eQTL (ct-eQTL) analyses. However, these studies are limited by their smaller sample sizes and technical constraints. In this paper, we present a novel statistical framework, IBSEP, which integrates bulk RNA-seq and scRNA-seq data for enhanced ct-eQTLs prioritization. Our method employs a Bayesian hierarchical model to combine summary statistics from both data types, overcoming the limitations while leveraging the advantages associated with each technique. Through extensive simulations and real-data analyses, including peripheral blood mononuclear cells and brain cortex datasets, IBSEP demonstrated superior performance in identifying ct-eQTLs compared to existing methods. Our approach unveils new transcriptional regulatory mechanisms specific to cell types, offering deeper insights into the genetic basis of complex diseases at a cellular resolution.},
   title={A unified framework for cell-type-specific eQTLs prioritization by integrating bulk and scRNA-seq data},
-  author={Yu,Xinyi and Hu, Xianghong and Wan, Xiaomeng and Zhang, Zhiyong and Wan, Xiang and Cai, Mingxuan and Yu, Tianwei and Xiao, Jiashun},
+  author={Yu,Xinyi and Hu, Xianghong and Wan, Xiaomeng and Zhang, Zhiyong and Wan, Xiang and Cai, Mingxuan and Yu†, Tianwei and Xiao†, Jiashun},
   journal={The American Journal of Human Genetics},
   html = {https://doi.org/10.1016/j.ajhg.2024.12.018},
   code={https://github.com/xinyiyu/IBSEP},
@@ -69,7 +71,8 @@
   year={2025},
   selected={false},
   publisher={Elsevier},
-  preview={ibsep_preview.jpeg}
+  preview={ibsep_preview.jpeg},
+  annotation = {† Corresponding author.}
 }
 }
 
@@ -77,7 +80,7 @@
   abbr = {AJHG},
   abstract = {Mendelian Randomization (MR), which utilizes genetic variants as instrumental variables (IVs), has gained popularity as a method for causal inference between phenotypes using genetic data. While efforts have been made to relax IV assumptions and develop new methods for causal inference in the presence of invalid IVs due to confounding, the reliability of MR methods in real-world applications remains uncertain. To bridge this gap, we conducted a benchmark study evaluating 15 MR methods using real-world genetic datasets. Our study focused on three crucial aspects: type I error control in the presence of various confounding scenarios (e.g., population stratification, pleiotropy, and assortative mating), the accuracy of causal effect estimates, replicability and power. By comprehensively evaluating the performance of compared methods over one thousand pairs of exposure-outcome traits, our study not only provides valuable insights into the performance and limitations of the compared methods but also offers practical guidance for researchers to choose appropriate MR methods for causal inference.},
   title={Benchmarking Mendelian Randomization methods for causal inference using genome-wide association study summary statistics},
-  author={Hu, Xianghong and Cai,Mingxuan and Xiao, Jiashun and Wan, Xiaomeng and Wang, Zhiwei and Zhao, Hongyu and Yang, Can},
+  author={Hu, Xianghong and Cai,Mingxuan and Xiao, Jiashun and Wan, Xiaomeng and Wang, Zhiwei and Zhao†, Hongyu and Yang†, Can},
   journal={The American Journal of Human Genetics},
   html = {https://doi.org/10.1101/2024.01.03.24300765},
   code={https://github.com/YangLabHKUST/MRbenchmarking},
@@ -87,7 +90,8 @@
   year={2024},
   selected={false},
   publisher={Elsevier},
-  preview={benchmark_preview.jpeg}
+  preview={benchmark_preview.jpeg},
+  annotation = {† Corresponding author.}
 }
 }
 
@@ -95,7 +99,7 @@
   abbr = {JCGS},
   abstract = {In various practical situations, matrix factorization methods suffer from poor data quality, such as high data sparsity and low signal-to-noise ratio (SNR). Here we consider a matrix factorization problem by utilizing auxiliary information, which is massively available in real applications, to overcome the challenges caused by poor data quality. Unlike existing methods that mainly rely on simple linear models to combine auxiliary information with the main data matrix, we propose to integrate gradient boosted trees in the probabilistic matrix factorization framework to effec- tively leverage auxiliary information (MFAI). Thus, MFAI naturally inherits several salient features of gradient boosted trees, such as the capability of flexibly modeling nonlinear relationships, and robustness to irrelevant features and missing values in auxiliary information. The parameters in MAFI can be automatically determined under the empirical Bayes framework, making it adaptive to the utilization of aux- iliary information and immune to overfitting. Moreover, MFAI is computationally efficient and scalable to large-scale datasets by exploiting variational inference. We demonstrate the advantages of MFAI through comprehensive numerical results from simulation studies and real data analysis. Our approach is implemented in the R package mfair available at https://github.com/YangLabHKUST/mfair.},
   title={{MFAI}: A scalable Bayesian matrix factorization approach to leveraging auxiliary information},
-  author={Wang, Zhiwei and Zhang, Fa and Zheng, Cong and Hu, Xianghong and Cai, Mingxuan and Yang, Can},
+  author={Wang, Zhiwei and Zhang, Fa and Zheng, Cong and Hu, Xianghong and Cai†, Mingxuan and Yang†, Can},
   journal={Journal of Computational and Graphical Statistics},
   html = {https://doi.org/10.1080/10618600.2024.2319160},
   year={2024},
@@ -106,14 +110,15 @@
   selected={true},
   pages={0--11},
   pdf={MFAI-JCGS.pdf},
-  preview={MFAI_preview.webp}
+  preview={MFAI_preview.webp},
+  annotation = {† Corresponding author.}
 }
 
 @article{cai2023xmap,
   abbr = {Nat. Commun.},
   abstract = {Fine-mapping prioritizes risk variants identified by genome-wide association studies (GWASs), serving as a critical step to uncover biological mechanisms underlying complex traits. However, several major challenges still remain for existing fine-mapping methods. First, the strong linkage disequilibrium among variants can limit the statistical power and resolution of fine-mapping. Second, it is computationally expensive to simultaneously search for multiple causal variants. Third, the confounding bias hidden in GWAS summary statistics can produce spurious signals. To address these challenges, we develop a statistical method for cross-population fine-mapping (XMAP) by leveraging genetic diversity and accounting for confounding bias. By using cross-population GWAS summary statistics from global biobanks and genomic consortia, we show that XMAP can achieve greater statistical power, better control of false positive rate, and substantially higher computational efficiency for identifying multiple causal signals, compared to existing methods. Importantly, we show that the output of XMAP can be integrated with single-cell datasets, which greatly improves the interpretation of putative causal variants in their cellular context at single-cell resolution.},
   title={{XMAP}: Cross-population fine-mapping by leveraging genetic diversity and accounting for confounding bias},
-  author={Cai, Mingxuan and Wang, Zhiwei and Xiao, Jiashun and Hu, Xianghong and Chen, Gang and Yang, Can},
+  author={Cai†, Mingxuan and Wang, Zhiwei and Xiao, Jiashun and Hu, Xianghong and Chen, Gang and Yang†, Can},
   journal={Nature Communications},
   volume={14},
   number={1},
@@ -124,14 +129,15 @@
   code={https://github.com/YangLabHKUST/xmap},
   pdf={XMAP-NC.pdf},
   publisher={Springer Nature},
-  preview={XMAP_preview.jpeg}
+  preview={XMAP_preview.jpeg},
+  annotation = {† Corresponding author.}
 }
 
 @article{wan2023spatialscope,
   abbr = {Nat. Commun.},
   abstract = {The rapid emergence of spatial transcriptomics (ST) technologies is revolutionizing our understanding of tissue spatial architecture and biology. Although current ST methods, whether based on next-generation sequencing (seq-based approaches) or fluorescence in situ hybridization (image-based approaches), offer valuable insights, they face limitations either in cellular resolution or transcriptome-wide profiling. To address these limitations, we present SpatialScope, a unified approach integrating scRNA-seq reference data and ST data using deep generative models. With innovation in model and algorithm designs, SpatialScope not only enhances seq-based ST data to achieve single-cell resolution, but also accurately infers transcriptome-wide expression levels for image-based ST data. We demonstrate SpatialScope’s utility through simulation studies and real data analysis from both seq-based and image-based ST approaches. SpatialScope provides spatial characterization of tissue structures at transcriptome-wide single-cell resolution, facilitating downstream analysis, including detecting cellular communication through ligand-receptor interactions, localizing cellular subtypes, and identifying spatially differentially expressed genes.},
   title={Integrating spatial and single-cell transcriptomics data using deep generative models with {SpatialScope}},
-  author={Wan, Xiaomeng and Xiao, Jiashun and Tam, Sindy Sing-Ting and Cai, Mingxuan and Sugimura, Ryohichi and Wang, Yang and Wan, Xiang and Lin, Zhixiang amd Wu, Angela Ruohao and Yang, Can},
+  author={Wan*, Xiaomeng and Xiao*, Jiashun and Tam, Sindy Sing-Ting and Cai, Mingxuan and Sugimura, Ryohichi and Wang, Yang and Wan, Xiang and Lin†, Zhixiang amd Wu†, Angela Ruohao and Yang†, Can},
   journal={Nature Communications},
   volume={14},
   number={1},
@@ -141,7 +147,8 @@
   selected={false},
   code={https://github.com/YangLabHKUST/SpatialScope},
   publisher={Springer Nature},
-  preview={XMAP_preview.jpeg}
+  preview={XMAP_preview.jpeg},
+  annotation = {* Co-first authors (equal contribution).<br>† Corresponding author.}
 }
 
 
@@ -149,19 +156,20 @@
   abbr = {Bioinformatics},
   abstract = {The findings from genome-wide association studies (GWASs) have greatly helped us to understand the genetic basis of human complex traits and diseases. Despite the tremendous progress, much effects are still needed to address several major challenges arising in GWAS. First, most GWAS hits are located in the non-coding region of human genome, and thus their biological functions largely remain unknown. Second, due to the polygenicity of human complex traits and diseases, many genetic risk variants with weak or moderate effects have not been identified yet. To address the above challenges, we propose a powerful and adaptive latent model (PALM) to integrate cell-type/tissue specific functional annotations with GWAS summary statistics. Unlike existing methods which are mainly based on linear models, PALM leverages a tree ensemble to adaptively characterize nonlinear relationship between functional annotations and the association status of genetic variants. To make PALM scalable to millions of variants and hundreds of functional annotations, we develop a functional gradient-based expectation-maximization (EM) algorithm, to fit the tree-based nonlinear model in a stable manner. Through comprehensive simulation studies, we show that PALM not only controls false discovery rate well, but also improves statistical power of identifying risk variants. We also apply PALM to integrate summary statistics of 30 GWASs with 127 cell type/tissue-specific functional annotations. The results indicate that PALM can identify more risk variants as well as rank the importance of functional annotations, yielding better interpretation of GWAS results.},
   title={{PALM}: A Powerful and Adaptive Latent Model for Prioritizing Risk Variants with Functional Annotations},
-  author={Yu, Xinyi and Xiao, Jiashun and Cai, Mingxuan and Jiao, Yuling and Wan, Xiang and Liu, Jin and Yang, Can},
+  author={Yu, Xinyi and Xiao, Jiashun and Cai, Mingxuan and Jiao, Yuling and Wan†, Xiang and Liu†, Jin and Yang†, Can},
   journal={Bioinformatics},
   pages={btad068},
   html = {https://doi.org/10.1093/bioinformatics/btad068},
   year={2023},
   code={https://github.com/YangLabHKUST/PALM},
   publisher={Oxford University Press},
-  preview = {XPXP_preview.jpeg}
+  preview = {XPXP_preview.jpeg},
+  annotation = {† Corresponding author.}
 }
 
 @article{Xiao2022logtram,
   abbr={AJHG},
-  author = {Xiao, Jiashun and Cai, Mingxuan and Yu, Xinyi and Hu, Xianghong and Wan, Xiang and Chen, Gang and Yang, Can},
+  author = {Xiao*, Jiashun and Cai*, Mingxuan and Yu, Xinyi and Hu, Xianghong and Chen, Gang and Wan†, Xiang and Yang†, Can},
   title = {Leveraging the local genetic structure for trans-ancestry association mapping},
   year = {2022},
   doi = {10.1101/2022.03.26.485910},
@@ -176,13 +184,14 @@
   code={https://github.com/YangLabHKUST/LOG-TRAM},
   html = {https://doi.org/10.1016/j.ajhg.2022.05.013},
   journal={The American Journal of Human Genetics},
-  preview={LOGTRAM_preview.jpeg}
+  preview={LOGTRAM_preview.jpeg},
+  annotation = {* Co-first authors (equal contribution).<br>† Corresponding author.}
 }
 
 @article{xiao2022xpxp,
   abbr = {Bioinformatics},
   title = {{XPXP}: Improving polygenic prediction by cross-population and cross-phenotype analysis},
-  author = {Xiao, Jiashun and Cai, Mingxuan and Hu, Xianghong and Wan, Xiang and Chen, Gang and Yang, Can},
+  author = {Xiao*, Jiashun and Cai*, Mingxuan and Hu, Xianghong and Wan†, Xiang and Chen†, Gang and Yang†, Can},
   journal = {Bioinformatics},
   year = {2022},
   month = {01},
@@ -195,13 +204,14 @@
   code = {https://github.com/YangLabHKUST/XPXP},
   pdf = {XPXP-Bioinformatics.pdf},
   html = {https://doi.org/10.1093/bioinformatics/btac029},
-  preview = {XPXP_preview.jpeg}
+  preview = {XPXP_preview.jpeg},
+  annotation = {* Co-first authors (equal contribution).<br>† Corresponding author.}
 }
 
 @article{cai2021unified,
   abbr={AJHG},
   title={A unified framework for cross-population trait prediction by leveraging the genetic correlation of polygenic traits},
-  author={Cai, Mingxuan and Xiao, Jiashun and Zhang, Shunkang and Wan, Xiang and Zhao, Hongyu and Chen, Gang and Yang, Can},
+  author={Cai*, Mingxuan and Xiao*, Jiashun and Zhang*, Shunkang and Wan, Xiang and Zhao, Hongyu and Chen†, Gang and Yang†, Can},
   journal={The American Journal of Human Genetics},
   abstract={We present a unified statistical framework (XPA) to improve the prediction accuracy of  human traits using multi-ancestry genetic data.   Paired with innovations in data structure and algorithm design, our framework is highly scalable, with both computational cost and memory storage linear to the sample size and number of predictors. In practice, XPA can analyze 3 million variants from 430K samples with only 385 Gb memory usage in 54.5 hours. In a Chinese cohort, our method achieves 7.3%-198.0% accuracy gain for height prediction in terms of R2 compared to existing methods.},
   url={https://doi.org/10.1016/j.ajhg.2021.03.002},
@@ -214,13 +224,14 @@
   code={https://github.com/YangLabHKUST/},
   pdf={XPA-AJHG.pdf},
   html={https://doi.org/10.1016/j.ajhg.2021.03.002},
-  preview={XPASS_preview.jpeg}
+  preview={XPASS_preview.jpeg},
+  annotation = {* Co-first authors (equal contribution).<br>† Corresponding author.}
 }
 
 @article{cai2020igrex,
   abbr={NARGAB},
   title={{IGREX} for quantifying the impact of genetically regulated expression on phenotypes},
-  author={Cai, Mingxuan and Chen, Lin S and Liu, Jin and Yang, Can},
+  author={Cai, Mingxuan and Chen, Lin S and Liu†, Jin and Yang†, Can},
   abstract={Many genetic variants  affect phenotypes by regulating the gene expression level. We develop a statistical model, IGREX, to quantify the impact of genetically regulated expression on various human traits and inform trait-relevant tissue types. Efficient parameter expanded EM (PX-EM) algorithm and Method of Moments are adopted to optimize computational efficiency.},
   journal={NAR genomics and bioinformatics},
   url={https://doi.org/10.1093/nargab/lqaa010},
@@ -234,7 +245,8 @@
   pdf={IGREX-NARGAB.pdf},
   html={https://doi.org/10.1093/nargab/lqaa010},
   supp={SUPP-IGREX.pdf},
-  preview={IGREX_preview.gif}
+  preview={IGREX_preview.gif},
+  annotation = {† Corresponding author.}
 }
 
 
@@ -242,7 +254,7 @@
   abbr={JCGS},
   title={{BIVAS}: a scalable {Bayesian} method for bi-level variable selection with applications},
   abstract={In this article, we consider a Bayesian bi-level variable selection problem in high-dimensional regressions. In many practical situations, it is natural to assign group membership to each predictor. Examples include that genetic variants can be grouped at the gene level and a covariate from different tasks naturally forms a group. Thus, it is of interest to select important groups as well as important members from those groups. The existing Markov chain Monte Carlo methods are often computationally intensive and not scalable to large datasets. To address this problem, we consider variational inference for bi-level variable selection. In contrast to the commonly used mean-field approximation, we propose a hierarchical factorization to approximate the posterior distribution, by using the structure of bi-level variable selection. Moreover, we develop a computationally efficient and fully parallelizable algorithm based on this variational approximation. We further extend the developed method to model datasets from multitask learning. The comprehensive numerical results from both simulation studies and real data analysis demonstrate the advantages of BIVAS for variable selection, parameter estimation, and computational efficiency over existing methods. The method is implemented in R package “bivas” available at https:// github.com/ mxcai/ bivas. Supplementary materials for this article are available online.},
-  author={Cai, Mingxuan and Dai, Mingwei and Ming, Jingsi and Peng, Heng and Liu, Jin and Yang, Can},
+  author={Cai, Mingxuan and Dai, Mingwei and Ming, Jingsi and Peng, Heng and Liu, Jin and Yang†, Can},
   journal={Journal of Computational and Graphical Statistics},
   url={https://doi.org/10.1080/10618600.2019.1624365},
   volume={29},
@@ -254,13 +266,14 @@
   code={https://github.com/mxcai/bivas},
   pdf={BIVAS-arxiv.pdf},
   html={https://doi.org/10.1080/10618600.2019.1624365},
-  preview={BIVAS_preview.jpeg}
+  preview={BIVAS_preview.jpeg},
+  annotation = {† Corresponding author.}
 }
 
 @article{ming2018lsmm,
   abbr={Bioinformatics},
   title={{LSMM}: a statistical approach to integrating functional annotations with genome-wide association studies},
-  author={Ming, Jingsi and Dai, Mingwei and Cai, Mingxuan and Wan, Xiang and Liu, Jin and Yang, Can},
+  author={Ming, Jingsi and Dai, Mingwei and Cai, Mingxuan and Wan, Xiang and Liu†, Jin and Yang†, Can},
   journal={Bioinformatics},
   url={https://doi.org/10.1093/bioinformatics/bty187},
   volume={34},
@@ -272,13 +285,14 @@
   code={https://github.com/mingjingsi/LSMM},
   pdf={LSMM-BIOINFO.pdf},
   html={https://doi.org/10.1093/bioinformatics/bty187},
-  preview={Funmap_preview.jpeg}
+  preview={Funmap_preview.jpeg},
+  annotation = {† Corresponding author.}
 }
 
 @article{dai2017igess,
   abbr={Bioinformatics},
   title={{IGESS}: a statistical approach to integrating individual-level genotype data and summary statistics in genome-wide association studies},
-  author={Dai, Mingwei and Ming, Jingsi and Cai, Mingxuan and Liu, Jin and Yang, Can and Wan, Xiang and Xu, Zongben},
+  author={Dai, Mingwei and Ming, Jingsi and Cai, Mingxuan and Liu, Jin and Yang†, Can and Wan†, Xiang and Xu†, Zongben},
   url={https://doi.org/10.1093/bioinformatics/btx314},
   journal={Bioinformatics},
   volume={33},
@@ -290,6 +304,7 @@
   code={https://github.com/daviddaigithub/IGESS},
   pdf={IGESS-BIOINFO.pdf},
   html={https://doi.org/10.1093/bioinformatics/btx314},
-  preview={Funmap_preview.jpeg}
+  preview={Funmap_preview.jpeg},
+  annotation = {† Corresponding author.}
 }
 
