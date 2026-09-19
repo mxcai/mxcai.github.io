@@ -8,6 +8,8 @@ nav_order: 3
 ---
 Our group focuses on developing fast and reliable methods for statistical genetics and genomics. We are maintaining a number of developed softwares.
 
+- [TACO](https://github.com/JONATHONCHOW/taco): R package for TACO, a statistical framework for multi-population transcriptome-wide association studies (TWASs). It integrates GWAS summary statistics and eQTL weights from multiple populations to boost statistical power for under-represented populations while controlling for false positives arising from polygenic pleiotropy.
+- [traceCB](https://github.com/LucaJiang/traceCB): Python package for traceCB, a statistical framework for trans-ancestry cell-type-specific eQTL mapping by integrating single-cell and bulk-tissue eQTL summary statistics.
 - [Funmap](https://github.com/LeeHITsz/Funmap): Python software for Funmap, a unified method to integrate high-dimensional functional annotations with fine-mapping. Funmap produces calibrated FDR while achieving power gains when dealing with a large number of annotations.
 - [XMAP](https://github.com/YangLabHKUST/XMAP): R package for XMAP, a fast and accurate method for fine-mapping causal variants using cross-population GWAS summary statistics. XMAP effectively leverages cross-population genetic diversity to enhance fine-mapping resolution. It also accounts for polygenicity and correct for population stratification to reduce false positives.
 - [VCM](https://github.com/mxcai/VCM): 	An efficiently implemented R package for variance components estimation. The software provides 3 algorithms for fitting the variance components model, including the Expectation-Maximization algorithm, the Minorization-Maximization algorithm, and the Method of Moments.
